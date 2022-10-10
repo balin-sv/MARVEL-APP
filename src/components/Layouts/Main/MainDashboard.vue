@@ -1,7 +1,5 @@
 <script setup></script>
 
-<template>
-  <main>p2</main>
-</template>
+<template></template>
 
 <style scoped></style>

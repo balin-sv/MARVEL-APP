@@ -1,38 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+import NavBar from "./components/Layouts/Header/NavBar.vue";
 </script>
 
 <template>
-  <div>
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/page1">Page1</RouterLink>
-      <RouterLink to="/page2">Page2</RouterLink>
-    </nav>
-    <h1>Marvel App</h1>
-  </div>
+  <!-- <NavBar /> -->
+  <!-- <div
+    class="d-flex flex-column flex-sm-row mt-5 container justify-content-between p-5 border border-danger border-5"
+  > -->
   <RouterView />
+  <!-- </div> -->
 </template>
 
-<style scoped>
-div {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  font-size: 15px;
-  text-align: center;
-  margin-top: 2rem;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-a {
-  font-size: 25px;
-  color: rgb(30, 43, 34);
-  text-decoration: none;
-}
-</style>
+<style scoped></style>

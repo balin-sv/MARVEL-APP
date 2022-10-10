@@ -1,14 +1,8 @@
 <script setup></script>
 
 <template>
-  <main></main>
+  <div class="border border-5 p-5">text</div>
+  <div class="border border-5 p-5">text</div>
 </template>
 
-<style scoped>
-main {
-  margin: 0 auto;
-  width: 80%;
-  height: 50vh;
-  background-color: rgb(194, 159, 112);
-}
-</style>
+<style scoped></style>
