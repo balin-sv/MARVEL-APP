@@ -23,7 +23,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="container d-flex flex-row flex-wrap justify-content-around">
+  <div class="flex flex-wrap">
     <Card
       v-for="card in data"
       :name="card.name"
